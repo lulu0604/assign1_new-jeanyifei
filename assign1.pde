@@ -42,7 +42,9 @@ void draw() {
   stroke(255,0,0);
   line(lightPos -40, 240+37, lightPos, 240+37);
   lightPos=lightPos-2;
-  
+   if(lightPos<=40){
+    lightPos = 240+25;
+  }
   
   x=x+1;
   if ( x > 640)
