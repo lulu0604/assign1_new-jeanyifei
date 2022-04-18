@@ -1,4 +1,4 @@
-PImage bgImg;
+PImage bgImg;//背景圖變數
 PImage soilImg;
 PImage lifeImg;
 PImage soldierImg;
