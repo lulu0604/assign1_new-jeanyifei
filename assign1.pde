@@ -9,8 +9,7 @@ int lightPos = 240+25; 設雷射光變數
 
 
 void setup() {
-      size(640, 480, P2D);//整個畫面尺寸
-      // Enter Your Setup Code Here
+   size(640, 480, P2D);//整個畫面尺寸
    bgImg = loadImage("img/bg.jpg");//插入背景圖的檔案
    soilImg = loadImage("img/soil.png");//插入土壤圖的檔案
    lifeImg= loadImage("img/life.png");//插入士兵生命圖的檔案
@@ -21,7 +20,6 @@ void setup() {
 }
 
 void draw() {
-   // Enter Your Code Here
   image(bgImg,0,0);//設背景圖座標
   image(soilImg, 0,160);//設土壤圖座標
   image(lifeImg,10,10);//設士兵生命圖座標
