@@ -9,7 +9,7 @@ int lightPos = 240+25; 設雷射光變數
 
 
 void setup() {
-      size(640, 480, P2D);//整個畫面尺寸
+     size(640, 480, P2D);//整個畫面尺寸
       // Enter Your Setup Code Here
    bgImg = loadImage("img/bg.jpg");//插入背景圖的檔案
    soilImg = loadImage("img/soil.png");//插入土壤圖的檔案
