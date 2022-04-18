@@ -1,7 +1,7 @@
 PImage bgImg;//背景圖變數
-PImage soilImg;
-PImage lifeImg;
-PImage soldierImg;
+PImage soilImg;//土壤變數
+PImage lifeImg;//士兵生命變數
+PImage soldierImg;//士兵變數
 PImage robotImg;
 PImage groundhogImg;
 int x =0;
